@@ -70,8 +70,10 @@ body {
   grid-template-columns: 1fr 2fr;
 }
 
-.form2 img {
+#leftimg {
   width: 250px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
 .contact h2 {
