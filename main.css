@@ -15,12 +15,12 @@ body {
     width: 650px;
   }
 
-h1 {
+.form1 h2 {
   margin: 10px;
   font-size: 3em;
 }
 
-p {
+.form1 p {
   margin-bottom: 20px;
   font-size: 1.5em;
 }
@@ -51,4 +51,90 @@ p {
   font-size: 1.2em;
   color: blue;
   font-weight: bold;
+}
+
+.form2 {
+  background-color: paleturquoise;
+  color: white;
+  padding: 50px;
+  text-align: left;
+  width: 900px;
+}
+
+.layer {
+  background-color: #fcf8f3;
+  color: #113f67;
+  border-radius: 10px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.form2 img {
+  width: 250px;
+}
+
+.contact h2 {
+font-size: 50px;
+font-weight: lighter;
+letter-spacing: 1px;
+margin: 20px;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  font-family: "Gill Sans", sans-serif;
+}
+
+.middle {
+  grid-auto-flow: row;
+}
+
+.middle input, .middle textarea {
+  margin: 0 0 30px 20px;
+  padding: 10px 0;
+  width: 75%;
+  font-size: 1em;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #113f67;
+  opacity: 0.8;
+  resize: none;
+}
+
+.middle textarea {
+  font-size: 1.2em;
+}
+
+.info {
+  margin-left: 30px;
+  display: grid;
+  grid-auto-rows: 2fr 5fr 1fr;
+}
+
+.info p {
+  padding-top: 3px;
+  letter-spacing: 1px;
+}
+
+.form2 button {
+  display: grid;
+  margin-left: 20px;
+  padding: 8px 40px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  color: #fcf8f3;
+  background-color: #113f67;
+  width: 70%;
+}
+
+.img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.img img{
+  width: 20px;
+
 }
