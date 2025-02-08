@@ -8,3 +8,5 @@ I used the following Figma resource as inspiration:
 [Rabia Israr] https://www.figma.com/community/file/1211313973694658452
 
 [Bejoy] https://www.figma.com/communit y/file/1295835845531190620
+
+[Nitish Sharma] https://www.figma.com/communit y/file/1199220142157640683
