@@ -9,20 +9,26 @@ body {
 }
 
 .form1 {
-    background-color: blue;
+    font-family: sans-serif;
+    background-image: url('./assets/mock1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     color: white;
     padding: 50px;
     width: 650px;
+    height: 550px;
   }
 
 .form1 h2 {
   margin: 10px;
-  font-size: 3em;
+  font-size: 2.8em;
 }
 
 .form1 p {
   margin-bottom: 20px;
-  font-size: 1.5em;
+  font-size: 1.4em;
 }
 
 #f1 {
