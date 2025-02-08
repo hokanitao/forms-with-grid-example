@@ -38,7 +38,7 @@ body {
   font-size: 1.1em;
 }
 
-#phone {
+.form1 #phone {
   grid-column: 1/ -1;
 }
 
@@ -55,13 +55,12 @@ body {
 
 .form2 {
   background-color: paleturquoise;
-  color: white;
   padding: 50px;
   text-align: left;
   width: 900px;
 }
 
-.layer {
+.layer2 {
   background-color: #fcf8f3;
   color: #113f67;
   border-radius: 10px;
@@ -138,5 +137,88 @@ margin: 20px;
 
 .img img{
   width: 20px;
+}
 
+.form3 {
+  background-color: lightgrey;
+  padding: 50px;
+  text-align: left;
+  width: 950px;
+  font-family: "Gill Sans", sans-serif;
+}
+
+#layer3 {
+  background-color: white;
+  color: black;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.header3 h2{
+  font-size: 2em;
+}
+
+.header3 p {
+margin: 10px 0;
+font-size: 1.2em;
+}
+
+.main3 {
+margin: 40px 0 30px;
+}
+
+#form3 {
+  display: grid;
+  gap: 20px;
+  grid-auto-flow: column;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main3 label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.main3 input, #date, #msg > textarea {
+  width: 100%;
+  padding: 10px;
+  resize: none;
+  background-color: #e4f1fe;
+  border: none;
+  border-radius: 3px;
+}
+
+#pn {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 25px 1fr;
+}
+
+#pn label {
+  grid-column: 1/ 3 ;
+}
+
+#pn select {
+  background-color: #e4f1fe;
+  border: none;
+  padding-left: 5px;
+}
+
+#msg {
+  display: grid;
+  grid-row: -3 / -1;
+}
+
+.button {
+  text-align: right;
+}
+
+.button button {
+  padding: 10px 20px;
+  background-color: #2772db;
+  color: white;
+  border: none;
+  border-radius: 3px;
 }

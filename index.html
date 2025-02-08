@@ -19,7 +19,7 @@
   </div>
 
   <div class="form2">
-    <div class="layer">
+    <div class="layer2">
       <img id="leftimg" src="./assets/moc2.jpg">
       <div class="contact">
         <h2>Contact Us</h2>
@@ -55,7 +55,54 @@
   </div>
 
   <div class="form3">
-
+      <label for="layer3" style="color: blueviolet;">Book Appointment</label>
+      <div id="layer3">
+        <div class="header3">
+          <h2>Book your appointment now</h2>
+          <p>So our team can reach out to you on time</p>
+        </div>
+        <div class="main3">
+          <form id="form3">
+            <div>
+              <label for="name">Full Name</label>
+              <input id="name" type="text" name="name" placeholder="eg: Jone Doe">
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" type="email" name="email" placeholder="eg: john@email.com">
+            </div>
+            <div id="pn">
+              <label for="phone">Phone Number</label>
+              <select name="countryno">
+                <option value="somewhere">+971</option>
+                <option value="northamerica">+1</option>
+                <option value="japan">+81</option>
+              </select>
+              <input id="phone" type="tel" name="phone" placeholder="543210987">
+            </div>
+            <div>
+              <label for="date">Available Date</label>
+              <select id="date" name="date">
+                <option value="nul">Select</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                <option value="satday">Saturday</option>
+                <option value="sunday">Sunday</option>
+              </select>
+            </div>
+            <div id="msg">
+              <label for="msg">Share Your Message</label>
+              <textarea name="msg" rows="6">Message</textarea>
+            </div>
+          </form>
+        </div>
+        <div class="button">
+          <button for="form3" type="submit">Book Now &#8594;</button>
+        </div>
+      </div>
   </div>
 </body>
 </html>
